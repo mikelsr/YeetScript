@@ -15,16 +15,15 @@
 
 var can = ""
 try {
-    if (!can) {
+    if (!can)
         yeet new Error("this b**ch empty!")
-    }
 } catch (err) {
     console.log(err.message)
 }
 ```
 
 Running the example:
-``` shell
+```
 $ node out/ysc.js example.ts
 $ node example.js
 this b**ch empty!
